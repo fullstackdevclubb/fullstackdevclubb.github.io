@@ -323,14 +323,20 @@ background: linear-gradient(to right, #F37335, #FDC830);
 
 
 
+  /* CSS for "ABOUT US" center alignment */
+  .center {
+    text-align: center;
+  }
 
+  /* CSS for fading effect */
+  .faded {
+    opacity: 0.6; /* Adjust the opacity value as desired */
+  }
 
-
-
-
-
-
-
+  .AboutUsFont{
+    font-family: Arial, sans-serif; /* Specify font family */
+    font-size: 16px; /* Specify font size */
+  }
 
   .slideshow {
     position: relative;
@@ -750,8 +756,12 @@ background: linear-gradient(to right, #F37335, #FDC830);
   .team-thumb img {
     width: 1000px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
-}
-  .navbar-brand img {
+  }
+  .navbar-brand1 img {
+    width: 105px; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .navbar-brand2 img {
     width: 65px; /* Adjust this value as needed */
     height: auto; /* Maintain aspect ratio */
   }
